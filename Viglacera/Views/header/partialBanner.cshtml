@@ -1,0 +1,56 @@
+﻿@model Viglacera.Models.tblConfig
+<div id="banner">
+    <div id="logo">
+        <a href="/" title="Viglacera Hà Nội"><img src="@Model.Logo" alt="Logo viglacera" /></a>
+    </div>
+    <div id="centerBanner">
+        <span class="sp1">Tổng công ty VIGLACERA</span>
+        <span class="sp2">@Model.Name</span>
+    </div>
+    <div id="rightBanner">
+        <div id="info">
+            <ul>
+                <li><a href="#" title="Email">Email</a></li>
+                <li><a href="/lien-he" title="Liên hệ" rel="nofollow">Liên hệ</a></li>
+                <li><a href="#" title="Sitemaps">Sitemap</a></li>
+            </ul>
+        </div>
+        <div id="search">@using (Html.BeginForm("CommandSearch", "Header", FormMethod.Post, new { @class = "FromSearch" }))
+        {
+            <input type="search" placeholder="Từ khóa" name="txtSearch" id="txtSearch" />
+            <button type="submit" name="btnSearch" id="btnSearch">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                
+            </button>}
+        </div>
+        <div id="connect">
+            <select>
+                <option value="0" selected="selected">Liên kết tới</option>
+                <option class="1">Tổng công ty Viglacera</option>
+                <option class="2">Viglacera Land</option>
+                <option class="2">Công ty sen voi Viglacera</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div id="menu">
+    <ul class="ul1">
+        <li class="li1"><a href="/" title="Trang chủ">Trang chủ</a></li>
+        <li class="li1"><a href="/gioi-thieu" title="Giới thiệu">Giới thiệu</a></li>
+        <li class="li1"><a href="/2/tin-tuc" title="Tin tức">Tin tức - Sự kiện</a></li>
+        <li class="li1">
+            <a href="#" title="Sản phẩm">Sản phẩm</a>
+            <ul class="ul2">
+               
+                 @Html.Raw(ViewBag.resultMenu)
+            </ul>
+        </li>
+        <li class="li1"><a href="/2/he-thong-phan-phoi" title="Hệ thống phân phối">Hệ thống phân phối</a></li>
+        <li class="li1"><a href="#" title="Báo giá">Báo giá</a>
+                <ul class="ul2">@Html.Raw(ViewBag.resultBaogia)</ul>
+        </li>
+        <li class="li1 lide"><a href="/2/tuyen-dung" title="Tuyển dụng">Tuyển dụng</a></li>
+        <li class="li1 lide"><a href="/Lien-he" title="Liên hệ">Liên hệ</a></li>
+        <li class="li1 lide"><a href="#" title="Tiếng việt" class="vn"></a><a href="#" title="Tiếng anh" class="en"></a></li>
+    </ul>
+</div>

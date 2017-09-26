@@ -1,0 +1,152 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#product{width:100%; height:auto; float:left; margin:0px}
+#headerProduct{width:100%; height:auto; float:left; margin:0px}
+#headerProduct #thumb{ width:50%; height:auto; float:left; margin:0px  ;  border: 1px #e5e5e5 solid; padding:5px}
+#headerProduct #thumb a{text-align:center; margin:0px}
+#headerProduct #thumb a img{max-width:100%; height:auto;  margin:0px auto; display:block;}
+#headerProduct #infoProduct{width:47%; height:auto; float:right; margin:0px}
+#headerProduct #infoProduct h1{font-size:17px;   color:#0070B4; text-transform:uppercase; margin:0px 0px 10px 0px; font-family: "Open Sans",sans-serif!important; }
+#headerProduct #infoProduct .if{ margin:5px 0px; color:#3e3e3e;}
+#headerProduct #infoProduct .if span{color:#0070B4; font-weight:bold}
+#headerProduct #infoProduct .if span.price{color:#f00; font-weight:bold; font-size:17px}
+#infoBasic{width:100%; height:auto; float:left; margin:5px 0px}
+#nvarBasic{    height: 30px;
+    line-height: 32px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #0070B4;
+    padding: 0 15px;
+    display: inline-block;
+}
+#contentInfoBasic{width:100%; height:auto; float:left; margin:5px 0px}
+#contentInfoBasic p{margin:5px 0px}
+#productDetail{width:100%; height:auto; float:left; margin:5px 0px}
+.nvarProductDetail{   height: auto;
+    line-height: auto;
+    color: #fff;
+    font-size: 15px;
+ 
+    text-transform: uppercase;
+    background: #0070B4;
+    padding: 5px 15px;
+    display: inline-block;font-family: "Open Sans",sans-serif!important;
+}
+#parameterDetail{width:100%; height:auto; float:left; margin:10px 0px}
+#contentProductDetail{width:100%; height:auto; float:left; margin:10px 0px;line-height:20px; text-align:justify}
+#contentProductDetail img{max-width:100%; margin:0px}
+#parameterDetail a{color:#0070B4}
+#parameterDetail img{max-width:100%; margin:10px 0px;height:auto !important}
+#contentProductDetail a{color:#0070B4}
+#tag{width:100%; height:auto; float:left; margin:0px}
+#tag i{float:left}
+#tag h4{font-weight:normal; margin:0px; float:left}
+#tag h4 a{color:#3e3e3d; margin:5px; padding:3px 7px; border:1px #e5e5e5 solid;   font-size:13px}
+#nav{width:100%; height:auto; float:left; margin:5px 0px}
+#nav ol{  height:auto; float:left; margin:0px; padding:0px}
+#nav ol li{ display:inline-block}
+#nav ol li a{ margin:0px 5px; display:block;color:#0070B4}
+#nav h2{margin:1px 7px; font-weight:normal; float:left; font-size:13px;color:#0070B4}
+#descriptionCate{width:100%; height:auto; float:left; margin:10px 0px}
+#descriptionCate h1{ font-size:26px;     width: 22%;
+    padding-left: 0%;
+    float: left;
+    text-align: right; font-weight: 400;
+    font-style: normal;    text-rendering: optimizeLegibility;
+    text-transform: uppercase;    font-family: "Open Sans",sans-serif!important;    margin: 4px 7px 4px 2px;
+}
+#descriptionCate #des{    width: 70.5%;
+    float: right;
+    padding: 0 1% 0 1.5%;
+    border-left: 3px solid #e6e6e6;    font-family: "Open Sans",sans-serif!important;
+    font-size: 14px;color: #636363;
+    line-height: 1.5; text-align:justify}
+#productList{ width:100%; height:auto; float:left; margin:5px 0px; position:relative}
+#productList:before{position:absolute; content:''; width:80%; height:0px; border-top:1px solid #e6e6e6; top:0px; left:10%}
+.tearPd{width:19%; height:288px; float:left; margin:0.4%; border:1px solid #e6e6e6}
+.tearPd .img{width:100%; height:190px; float:left; display:table; table-layout:fixed; margin:0px 0px 10px 0px}
+.tearPd .img a{text-align:center; display:table-cell; vertical-align:middle; margin:0px}
+.tearPd .img a img{max-width:100%; max-height:190px}
+.tearPd h3{margin:0px; font-weight:normal}
+.tearPd h3 a{color:#3e3e3e; margin:5px; text-align:center; display:block}
+.tearPd a{color:#3e3e3e; margin:5px; text-align:center; display:block}
+.tearPd  p{margin:5px; text-align:center; color:#F00; font-size:14px; font-weight:bold}
+.tearProduct{width:100%; height:auto; float:left; margin:5px 0px}
+.nvarProduct{    width: 100%;
+    height: auto;
+    float: left;
+    background: url(../icon/bgnvar1.png) repeat-x;
+}
+.nvarProduct h2{
+	    font-size: 14px;
+    color: #3e3e3e;
+    font-weight: bold;
+    margin: 0px 5px;
+    line-height: 35px;
+    padding-left: 40px;
+    display: block;
+    background: url(../icon/iconViglacera.png) no-repeat 10px center scroll transparent;}
+.nvarProduct span{
+	    font-size: 14px;
+    color: #3e3e3e;
+    font-weight: bold;
+    margin: 0px 5px;
+    line-height: 35px;
+    padding-left: 40px;
+    display: block;
+    background: url(../icon/iconViglacera.png) no-repeat 10px center scroll transparent;}
+.contentTearProduct{ width:100%; height:auto; float:left; margin:5px 0px}
+.nvarProduct h2 a{color: #3e3e3e;}
+.nvarProduct h1{
+	    font-size: 14px;
+    color: #3e3e3e;
+    font-weight: bold;
+    margin: 0px 5px;
+    line-height: 35px;
+    padding-left: 40px;
+    display: block;
+    background: url(../icon/iconViglacera.png) no-repeat 10px center scroll transparent;}
+.contentTearProduct{ width:100%; height:auto; float:left; margin:5px 0px}
+.nvarProduct h1 a{color: #3e3e3e;}
+#contentInfoBasic table{ width:100%; height:auto; float:left; border-top:1px solid #f1efef; margin:0px 0px 15px 0px}
+#contentInfoBasic table tr:nth-child(2n){ background-color:#f5f5f5}
+ 
+#contentInfoBasic table tr td{ border-right:1px solid #f1efef;  font-size:14px ;
+}
+#contentInfoBasic table tr td a{display:block; margin: 0px 0px}
+#contentInfoBasic table tr td:first-child{text-align:left;line-height:22px ; }
+#contentInfoBasic table tr td:last-child{padding:0px 10px; line-height:18px;width:58%; border:none}
+#contentInfoBasic table tr:last-child{ border-bottom:1px solid #f1efef;width:38%}
+ #ConmentFacebook{width:100%; height:auto; float:left; margin:10px 0px}
+#productLienQuan{width:100%; height:auto; float:left; margin:10px 0px}
+#leftProductDetail{ width:100%; height:auto; float:left}
+#rightProductDetail{ width:100%; height:auto; float:left}
+#productInvolve{ width:100%; height:auto; float:left; margin:8px 0px}
+.tearInvolve{width:100%; height:auto; float:left; border-bottom:1px #e5e5e5 dashed; margin:3px 0.88}
+.tearInvolve img{width:auto; height:50px;  float:left; margin:3px 10px 5px 0px; padding:5px; border:1px #e5e5e5 solid}
+.tearInvolve a{color:#0070B4; font-weight:bold; margin:5px; display:block}
+.tearInvolve p{ color:#3e3e3e; margin:3px 5px; font-weight:normal}
+.tearInvolve p span{font-weight:bold; color:#F00}
+#table{     width: 100% !important;
+    height: auto;
+    float: left;
+    margin: 5px 0px;
+    border: 1px solid #dcdcdc;
+    border-right: none;
+    border-bottom: none
+}
+#table td{    text-indent: 5px;
+    border: 1px solid #dadada;
+    border-top: none;
+    border-left: none;
+    padding: 0;
+    margin: 0;
+	line-height:25px
+}
+#table tr:first-child{background:#616161; color:#fff; text-align:center; text-transform:uppercase }
+.viewDetail{width:100%; height:auto; float:left; margin:7px 0px; text-align:center}
+.viewDetail a{text-align:center; display:inline-block; background:#767778; border-radius:5px; color:#FFF; padding:5px 12px}
+.viewDetail a span{ color:#F00; font-weight:bold; font-size:16px}

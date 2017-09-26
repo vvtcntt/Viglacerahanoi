@@ -1,0 +1,21 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:768px)
+{
+	.tearPd{width:23.8%; height:258px}
+	.tearPd .img{ height:160px}
+	.tearPd .img a img{max-height:160px}
+	#leftProductDetail{ width:100% !important}
+	#rightProductDetail{ width:100% !important; float:left !important}}
+@media screen and (max-width:480px)
+{#headerProduct #thumb{width:100%}
+#headerProduct #infoProduct{width:auto; float:left; margin:5px 0px; padding:0px 5px}
+#productDetail{width:auto; float:left; margin:5px 0px; padding:0px 5px}
+#descriptionCate h1{width:100%; height:auto; float:left; margin:0px}
+#descriptionCate #des{display:none}	
+.tearPd{width:48.2%; height:215px}
+	.tearPd .img{ height:120px}
+	.tearPd .img a img{max-height:120px}	#descriptionCate h1{ text-align:left}
+.tearInvolve{ width:100%; margin:3px 0px}
+}

@@ -1,0 +1,221 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+body { 
+    font: 14px arial ;
+    margin: 0;
+    padding: 0;
+
+	 
+	}
+ul,li{ padding:0px; margin:0px; outline:0px; vertical-align:baseline; border:0px}
+
+ul,li{ list-style:none}
+a{text-decoration:none}
+a:hover{color:#2ac0ff !important;text-decoration:none !important} 
+img { border:none}
+.Clear{ clear:both}
+@font-face { 
+font-family:UTM_Sarah; 
+src:url(../Fonts/UTM_Sarah.ttf)
+}
+@font-face { 
+font-family:hevr; 
+src:url(../Fonts/hevr.ttf)
+}
+@font-face { 
+font-family:Condensed; 
+src:url(../Fonts/UTM-Swiss-Condensed.ttf)
+}
+@font-face { 
+font-family:seguisym; 
+src:url(../Fonts/seguisym.ttf)
+}
+@font-face { 
+font-family:CondensedBold; 
+src:url(../Fonts/UTM-Swiss-CondensedBold.ttf)
+}
+/*header*/
+header{width:100%; height:auto; float:left; padding:0; margin:0px; background:#FFF}
+#banner{width:1000px; height:124px; margin:0px auto}
+#banner #logo{width:15%; height:100%; float:left}
+#banner #logo img{float:left; max-width:100%; max-height:124px; margin:0px}
+#banner #centerBanner{width:65%; height:100%; float:left; margin:0px; background:url(../icon/leftBannerLine.png) no-repeat left center scroll #006fb6}
+#banner #centerBanner .sp1{ font-size:27px; color:#FFF; margin:32px 5px 5px 55px; display:block; text-transform:uppercase}
+#banner #centerBanner .sp2{ font-size:23px; color:#FFF; margin:5px 5px 5px 55px; display:block; text-transform:uppercase; font-weight:bold}
+#banner #rightBanner{width:20%; height:100%; float:left; background:url(../icon/leftBanner.png) no-repeat right center scroll #006fb6}
+#banner #rightBanner #info{width:100%; height:auto; float:left; margin:5px 0px}
+#banner #rightBanner #info ul{float:left; margin:0px; text-align:right}
+#banner #rightBanner #info ul li {display:inline-block;}
+#banner #rightBanner #info ul li a{color:#FFF; display:inline-block; margin:5px}
+#banner #rightBanner #search{width:100%; height:auto; float:left; margin:5px 0px}
+#banner #rightBanner #search input{width:150px; height:24px; float:left; text-indent:10px}
+#banner #rightBanner #search button{height:24px; width:30px; float:left}
+#banner #rightBanner #connect{width:100%; height:auto; float:left; margin:2px 0px}
+#banner #rightBanner #connect select{width:180px; height:24px; float:left; font-size:12px; text-indent:10px}
+#menu{width:1000px; height:43px; margin:0px auto; background:url(../icon/bg-menu.png) repeat-x; z-index:100}
+#menu ul{float:left; margin:0px; width:auto; height:100%}
+#menu ul li{float:left; position:relative}
+#menu ul li a{color:#FFF; margin:0px 15px 0px 14px; display:inline-block; text-transform:uppercase; font-family: "Open Sans",sans-serif!important; line-height:32px; font-size:13.5px}
+#menu ul li .vn{background:url(../icon/icon_vn.png) no-repeat; width:22px; height:19px; margin:5px 5px}
+#menu ul li .en{background:url(../icon/icon_el.png) no-repeat; width:22px; height:19px; margin:5px 0px}
+#menu ul li .ul2{width:220px; height:auto; float:left; margin:0px; position:absolute; background:rgba(8,118,163,0.8); padding-top:10px; padding-bottom:5px; display:none}
+#menu ul li:hover .ul2{display:block;z-index:100}
+#menu ul li .ul2 li a{text-transform:none; line-height:normal !important; padding:5px 7px; display:block}
+#menu ul li .ul2 li{border-bottom:1px solid #006d9a; width:100%; position:relative}
+#menu ul li .ul2 li:hover{ background:#006d9a}
+#menu ul li .ul2 li:last-child{border:none}
+#menu ul li .ul2 li .ul3{width:100%; height:auto; display:none; float:left; background:#006d9a; position:absolute; margin-left:100%; top:0px}
+#menu ul li .ul2 li:hover .ul3{display:block}
+
+#menu ul li .ul2 li:hover .ul3 li:hover{background:#025476; }
+#menu ul li .ul2 li:hover .ul3 li:hover a{color:#FFF} 
+#menu ul li .ul2 li:hover .ul3 li ul{width:100%; height:auto; display:none;  float:left; background:#025476; position:absolute; margin-left:100%; top:0px}
+#menu ul li .ul2 li:hover .ul3 li:hover ul{display:block}
+#menu ul li .ul2 li:hover .ul3 li ul li{border-bottom:1px solid #036289 !important}
+section{width:100%; height:auto; float:left; padding:0px; margin:0px;  background:url(../icon/bg.jpg)}
+#main{width:1000px; height:auto; margin:0px auto; background:#FFF; padding:0px 7px}
+#header{width:100%; height:auto; float:left; margin:0px}
+#header #slide{width:73%; height:272px; float:left; margin:0px}
+#header #slide a img{float:left; width:100%; height:100%; float:left; margin:0px}
+#header #video{width:25%; float:left; margin:0px 0px 0px 2%}
+.nvar{width:100%; height:auto; margin:0px; float:left; background:url(../icon/box2-bg.png)}
+.nvar span{background:url(../icon/iconViglacera.png) no-repeat 15px center scroll transparent; display:block; padding-left:48px; line-height:35px; color:#FFF; text-transform:uppercase; font-weight:bold} 
+#contentVideo{width:100%; height:auto; float:left; margin:7px 0px}
+/* hiệu ứng cho slide*/
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff  url(../icon/loading.gif) no-repeat 50% 50%;
+    margin-bottom:10px;
+ 
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	text-align: center;
+	padding: 20px 0;
+}
+.theme-default .nivo-controlNav a {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(../icon/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../icon/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.theme-default:hover .nivo-directionNav a { opacity: 1; }
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+/*end hiệu ứng slide*/
+
+#content{width:100%; height:auto; float:left; margin:5px 0px}
+#leftContent{width:73%; height:auto; float:left; margin:0px}
+#newsHomes{width:100%; height:auto; float:left; margin:0px;border:1px solid #e9ebec; border-top:none}
+.nvarContent{width:100%; height:auto; float:left; background:url(../icon/bgnvar.png) repeat-x}
+.nvarContent span{font-size:14px; color:#3e3e3e; font-weight:bold; margin:0px 5px; line-height:35px;  padding-left:40px; display:block; background:url(../icon/iconViglacera.png) no-repeat 10px center scroll transparent}
+#contentNewsHomes{width:100%; height:auto; float:left; margin:0px; }
+#contentNewsHomes #newsPriority{width:40%; height:auto; float:left; margin:10px; padding:10px; border:1px solid #e9eaeb;}
+#contentNewsHomes #newsPriority a{text-align:center; display:block}
+#contentNewsHomes #newsPriority img{ max-width:100%; height:auto; display:block; max-height:160px; margin:5px auto; display:block}
+#contentNewsHomes #newsPriority h4{ margin:0px}
+#contentNewsHomes #newsPriority h4 a{    color: #2B70A8;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: larger; margin:5px 0px; display:block}
+#contentNewsHomes #newsPriority  span{ font-size:12px; color:#3e3e3e; margin:5px 0px; display:block; text-align:justify}
+#contentNewsHomes #listNewsHomes{width:53%; height:auto; float:left; margin:5px 0px 0px 1%}
+#contentNewsHomes #listNewsHomes ul li{float:left; width:100%; margin:5px 0px}
+#contentNewsHomes #listNewsHomes ul li img{    width: 70px;
+    height: 40px;
+    border: 1px solid #ccc; float:left; margin:0px 10px 0px 0px; padding:5px}
+#contentNewsHomes #listNewsHomes ul li a{ margin:5px 0px;     margin-top: 5px;
+    color: #0070B4;
+    text-decoration: none; display:block }
+	
+#productHomes{width:100%; height:auto; float:left; margin:5px 0px; border:1px solid #e9eaeb;}
+#listProductHomes{width:98%; height:auto; float:left; margin:5px 0px; padding:5px 1%}
+#listProductHomes .item .img{ width:100%; height:115px; float:left; margin:0px 0px 5px 0px; display:table; table-layout:
+fixed}
+#listProductHomes .item .img a{text-align:center; vertical-align:middle; display:table-cell;}
+#listProductHomes .item .img a img{max-width:100%; max-height:115px}
+#listProductHomes .item h3{font-weight:normal; margin:0px; text-align:center}
+#listProductHomes .item h3 a{color:#0070B4; margin:5px; display:block; font-size:14px}
+#rightContent{    width: 25%;
+    float: left;
+    margin: 0px 0px 0px 2%;
+}
+#catalogue{width:100%; height:auto; float:left; margin:0px 0px 10px 0px}
+#catalogue img{width:100%; margin:7px 0px; float:left}
+#prize{width:100%; height:auto; float:left; margin:0px 0px 10px 0px}
+#prize img{width:100%; margin:7px 0px; float:left}
+footer{width:100%; height:auto; float:left; margin:0px; padding:0px 0px}
+#footer{width:1000px; margin:0px auto; clear:both; background: url(../icon/leftBanner.png) no-repeat right center scroll #0070b4; padding:9px 7px}
+#footer .name1{ font-weight:600; margin:10px 0px 5px 0px; color:#FFF; display:block; float:left  }
+#footer .name2{  margin:0px 0px 5px 0px; color:#8fd5ff; display:block; float:left; clear:both}
+#contentFooter{width:100%; height:auto; float:left; margin:7px 0px; position:relative}
+.tearFooter{width:50%; float:left; margin:0px}
+.tearFooter .name{   margin:10px 0px 10px 0px; color:#FFF; display:block; float:left}
+.tearFooter .p{  margin:0px 0px 2px 0px; color:#8fd5ff; display:block; float:left; clear:both}
+#contentFooter:before{position:absolute; content:''; width:70%; height:1px; background:#0482cf; left:15%; top:0px}
+
+.h1{opacity:0.1; font-size:13px; margin:0px; font-weight:normal; float:left}
+#social{width:100%; height:auto; float:left; margin:10px 0px}

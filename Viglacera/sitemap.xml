@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url xmlns="">
+    <loc>http://Viglacera.com/bon-cau-viglacera-1-khoi-v92.htm</loc>
+    <id>1</id>
+    <type>Product</type>
+  </url>
+  <url xmlns="">
+    <loc>http://Viglacera.com/tin-tuc-moi.html</loc>
+    <id>250</id>
+    <type>Newsad</type>
+  </url>
+  <url xmlns="">
+    <loc>http://Viglacera.com/tin-tuc-moi.html</loc>
+    <id>250</id>
+    <type>Newsad</type>
+  </url>
+  <url xmlns="">
+    <loc>http://Viglacera.com/tin-tuc/tin-tuc-moi</loc>
+    <id>250</id>
+    <type>News</type>
+  </url>
+  <url xmlns="">
+    <loc>http://Viglacera.com/he-thong-phan-phoi</loc>
+    <id>0</id>
+    <type>GroupNews</type>
+  </url>
+  <url xmlns="">
+    <loc>http://Viglacera.com/he-thong-phan-phoi</loc>
+    <id>0</id>
+    <type>GroupNews</type>
+  </url>
+  <url xmlns="">
+    <loc>http://Viglacera.com/bon-cau-viglacera.html</loc>
+    <id>2</id>
+    <type>GroupProduct</type>
+  </url>
+  <url xmlns="">
+    <loc>http://Viglacera.com/gioi-thieu-ve-viglacera-ha-noi.html</loc>
+    <id>251</id>
+    <type>Newsad</type>
+  </url>
+  <url xmlns="">
+    <loc>http://Viglacera.com/tin-tuc/gioi-thieu-ve-viglacera-ha-noi</loc>
+    <id>251</id>
+    <type>News</type>
+  </url>
+</urlset>

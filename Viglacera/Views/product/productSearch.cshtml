@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutDefault.cshtml";
+}
+@using PagedList.Mvc;
+@model PagedList.IPagedList<Viglacera.Models.tblProduct>
+@using Viglacera.Models
+<div id="nav">
+    <nav>   @Html.Raw(ViewBag.nUrl) </nav>
+</div>
+<div id="content">
+    <div id="product">
+
+        <div id="productList">
+            @Html.Raw(ViewBag.result)
+            <div class="Clear"></div>
+            @Html.PagedListPager(Model, page => Url.Action("productSearch", new { page = page, sortOrder = ViewBag.CurrentSortOrder, sortName = ViewBag.CurrentSortName, sortLevel = ViewBag.CurrentSortLevel }), (PagedListRenderOptions)ViewBag.ship)
+
+
+        </div>
+    </div>
+</div>
+<div class="Clear"></div>
+

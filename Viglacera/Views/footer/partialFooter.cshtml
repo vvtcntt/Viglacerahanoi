@@ -1,0 +1,14 @@
+﻿@model Viglacera.Models.tblConfig
+<div id="footer">
+    <p class="name1">
+        © 2011 Viglacera Ha Noi. All rights reserved. @Model.Name
+    </p>
+    <p class="name2">
+        ĐC: @Model.Address * ĐT: @Model.MobileIN  -  Email:  @Model.Email
+    </p>
+    <div id="contentFooter">
+        @Html.Raw(ViewBag.result)
+         
+    </div>
+    <div class="Clear"></div>
+</div>

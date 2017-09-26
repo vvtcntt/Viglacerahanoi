@@ -1,0 +1,16 @@
+﻿
+@{
+     Layout = "~/Views/Shared/_LayoutDefault.cshtml";
+}
+
+@{ Html.RenderAction("partialSlide","Default");}
+<div id="content">
+    <div id="leftContent">
+        @{ Html.RenderAction("partialNewsHomes","news");}
+        @{ Html.RenderAction("partialProductHomes", "product");}
+    </div>
+    <div id="rightContent">
+        @{ Html.RenderAction("partialVideoAndCatalogue", "Default");}
+    </div>
+</div>
+@Html.Raw(ViewBag.h1)

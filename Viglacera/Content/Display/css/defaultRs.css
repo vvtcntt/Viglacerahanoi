@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:768px)
+{
+	#banner{width:100%; height:106px; overflow:hidden}
+	#banner #centerBanner .sp1{font-size:23px}
+	#banner #centerBanner .sp2{font-size:18px}
+	#banner #centerBanner{width:61%}
+	#banner #rightBanner{width:24%}
+	#banner #rightBanner #info ul li a{font-size:13px}
+	#banner #rightBanner #search input{width:80%}
+	#banner #rightBanner #connect select{width:98%}
+	#menu ul li.lide{display:none}
+	#menu ul li a{font-size:12.3px}
+	#menu{width:100%}
+	#main{width:100%; padding:0px; overflow:hidden}
+	#header #slide{width:100%}
+	#header #video{display:none}
+	#leftContent{width:100%}
+	#rightContent{display:none}
+	#contentNewsHomes #listNewsHomes{width:52%}
+	#listProductHomes .item .img{ height:200px}
+	#listProductHomes .item .img img{max-height:200px !important}
+	#footer{width:100%; padding: 10px 0px; overflow:hidden}
+	#footer p{ margin:5px  !important}
+}
+@media screen and (max-width:480px)
+{
+	#banner{height:auto}
+	#banner a{ text-align:center}
+	#banner #logo img{float:none; margin:0px auto; display:block; max-width:80px}
+	#banner #logo{width:100%}
+	#banner #centerBanner{width:100%; background: #006fb6; padding:9px 0px 0px 0px}
+	#banner #centerBanner .sp1{ margin:5px; text-align:center; font-size:22px}
+	#banner #centerBanner .sp2{ margin:5px; text-align:center}
+	#banner #rightBanner{width:100%; background:#006fb6}
+	#banner #rightBanner #info ul{width:100%}
+	#banner #rightBanner #info{margin:0px}
+    #banner #rightBanner #info ul { text-align:center}
+	#banner #rightBanner #info ul li a{ text-align:center; display:block}
+	#banner #rightBanner #connect{display:none}
+	#banner #rightBanner #search input{ margin-left:10px}
+	#header #slide{height:auto}
+	#contentNewsHomes #newsPriority{width:100%; padding:0px; margin:0px}
+	#contentNewsHomes #listNewsHomes{width:100%; margin:0px}
+	#contentNewsHomes #listNewsHomes ul li img{width:70px; height:50px}
+	.tearFooter{ width:100%}
+}
