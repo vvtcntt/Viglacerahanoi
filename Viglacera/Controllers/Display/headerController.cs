@@ -46,11 +46,7 @@ namespace Viglacera.Controllers.Display.Header
                         }
                         int idcate = menuChild[j].id;
                         var listChildChild = db.tblGroupProducts.Where(p => p.Active == true && p.ParentID == idcate).OrderBy(p => p.Ord).ToList();
-                        if (listChildChild.Count > 0)
-                        {
-                            result.Append("<li><a href = \"/" + menuChild[j].Tag + "\" title=\"" + menuChild[j].Name + "\">" + menuChild[j].Name + " <i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i></a>");
-                        }
-                        else
+                     
                             result.Append("<li><a href = \"/" + menuChild[j].Tag + "\" title=\"" + menuChild[j].Name + "\">" + menuChild[j].Name + "</a>");
                         if (listChildChild.Count > 0)
                         {
